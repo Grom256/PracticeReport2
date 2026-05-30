@@ -1,0 +1,23 @@
+[
+  {
+    "name": "StarKiller Limited Edition",
+    "manufacturer": "PashaCustomCorporation",
+    "qty": 3,
+    "price": "65",
+    "image_src": "starkiller.jpg"
+  },
+  {
+    "name": "Padme Episode 2",
+    "manufacturer": "PashaCustomCorporation",
+    "qty": 9,
+    "price": "60",
+    "image_src": "padme.jpg"
+  },
+  {
+    "name": "Clone Trooper",
+    "manufacturer": "PashaCustomCorporation",
+    "qty": 472,
+    "price": "33",
+    "image_src": "clone_104.jpg"
+  }
+]
