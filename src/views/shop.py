@@ -23,7 +23,7 @@ def shop_view(page):
 
         buttons = [ft.OutlinedButton("Details", on_click=open_product)]
         try:
-            from .cart import cart_view  # noqa: F401
+            from .cart import cart_view
             buttons.append(ft.FilledButton("Add", on_click=add_to_cart))
         except ImportError:
             pass
