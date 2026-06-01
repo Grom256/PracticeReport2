@@ -1,23 +1,44 @@
 [
-  {
-    "name": "StarKiller Limited Edition",
-    "manufacturer": "PashaCustomCorporation",
-    "qty": 3,
-    "price": "65",
-    "image_src": "starkiller.jpg"
-  },
-  {
-    "name": "Padme Episode 2",
-    "manufacturer": "PashaCustomCorporation",
-    "qty": 9,
-    "price": "60",
-    "image_src": "padme.jpg"
-  },
-  {
-    "name": "Clone Trooper",
-    "manufacturer": "PashaCustomCorporation",
-    "qty": 472,
-    "price": "33",
-    "image_src": "clone_104.jpg"
-  }
+    {
+        "name": "Star Wars The Force Unleashed: StarKiller [Limited Edition]",
+        "manufacturer": "PashaCustomCorporation",
+        "qty": 2,
+        "price": "65",
+        "image_src": "starkiller.jpg"
+    },
+    {
+        "name": "Star Wars The Clone Wars: Umbaran Soldier",
+        "manufacturer": "PashaCustomCorporation",
+        "qty": 151,
+        "price": "40",
+        "image_src": "umbar.jpg"
+    },
+    {
+        "name": "Star Wars Episod 2: Queen of Nabu, Padme Amidala [Limited Edition]",
+        "manufacturer": "PashaCustomCorporation",
+        "qty": 8,
+        "price": "60",
+        "image_src": "padme.jpg"
+    },
+    {
+        "name": "Star Wars Episod 3: Clone of 104th battalion",
+        "manufacturer": "GrandPaCloneCustoms",
+        "qty": 273,
+        "price": "35",
+        "image_src": "clone_104.jpg"
+    },
+    {
+        "name": "Star Wars Episod 4: Bail Organa",
+        "manufacturer": "PashaCustomCorporation",
+        "qty": 82,
+        "price": "45",
+        "image_src": "organa.jpg"
+    },
+    {
+        "name": "Star Wars Jedi Fallen Order: Purge Trooper",
+        "manufacturer": "PashaCustomCorporation",
+        "qty": 171,
+        "price": "40",
+        "image_src": "jedi_hunter.jpg"
+    }
 ]
