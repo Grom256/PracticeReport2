@@ -59,7 +59,7 @@ def home_view(page):
                     expand=True
 
                 ),
-                # ft.Container(bgcolor="#66000000", expand=True),
+
                 ft.Container(
                     padding=48,
                     alignment=ft.Alignment.CENTER_LEFT,
