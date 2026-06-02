@@ -340,7 +340,7 @@ def cart_view(page):
         ft.FilledButton('Сплатити', icon=ft.Icons.PAYMENT, on_click=confirm_payment),
     ])
 
-    # ── delivery panel ────────────────────────────────────────────────────────
+
     async def go_to_login(e):
         await page.push_route('/login')
 
@@ -410,7 +410,7 @@ def cart_view(page):
                 page.update()
                 return
 
-            # Reset payment form before opening
+
             payment_method.value = 'card'
             card_holder.value = ''
             card_number.value = ''
@@ -426,7 +426,7 @@ def cart_view(page):
             scroll=ft.ScrollMode.HIDDEN,
             controls=[
                 ft.Text('Доставка', size=20, weight=ft.FontWeight.BOLD, color=ft.Colors.BLACK),
-                # Free shipping chip
+
                 ft.Container(
                     padding=ft.padding.symmetric(horizontal=12, vertical=8),
                     border_radius=8,
@@ -444,7 +444,7 @@ def cart_view(page):
                         ],
                     ),
                 ),
-                # Recipient block (read-only info)
+
                 ft.Text('Отримувач', size=13, weight=ft.FontWeight.BOLD, color=ft.Colors.BLACK54),
                 ft.Container(
                     padding=ft.padding.symmetric(horizontal=12, vertical=8),
@@ -458,7 +458,7 @@ def cart_view(page):
                         ],
                     ),
                 ),
-                # Address fields
+
                 ft.Text('Адреса доставки', size=13, weight=ft.FontWeight.BOLD, color=ft.Colors.BLACK54),
                 country_dropdown,
                 city_field,
@@ -500,7 +500,7 @@ def cart_view(page):
             ],
         )
 
-    # ── assemble view ─────────────────────────────────────────────────────────
+
     return ft.View(
         route='/cart',
         padding = 0,
@@ -519,12 +519,12 @@ def cart_view(page):
                     spacing=28,
                     vertical_alignment=ft.CrossAxisAlignment.START,
                     controls=[
-                        # Left: cart items
+
                         ft.Container(
                             expand=True,
                             content=cart_column,
                         ),
-                        # Right: delivery / checkout panel
+
                         ft.Container(
                             width=420,
                             padding=16,
