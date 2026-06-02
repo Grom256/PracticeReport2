@@ -225,10 +225,10 @@ def shop_view(page):
                 gradient=ft.SweepGradient(
                     center=ft.Alignment.CENTER,
                     colors=[
-                        ft.Colors.GREY_900,  # темний метал
-                        ft.Colors.GREY_300,  # світлий метал (блік)
+                        ft.Colors.GREY_900,
+                        ft.Colors.GREY_300,
                         ft.Colors.AMBER,
-                        ft.Colors.GREY_200,  # ще один блік
+                        ft.Colors.GREY_200,
                         ft.Colors.YELLOW,
                         ft.Colors.GREY_900,
                     ],
@@ -267,7 +267,7 @@ def shop_view(page):
                                 ],
                             ),
                             cards_grid,
-                            # empty_state,
+
                         ],
                     ),
                 ),
