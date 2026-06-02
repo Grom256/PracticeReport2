@@ -9,7 +9,7 @@
     {
         "name": "Star Wars The Clone Wars: Umbaran Soldier",
         "manufacturer": "PashaCustomCorporation",
-        "qty": 151,
+        "qty": 150,
         "price": "40",
         "image_src": "umbar.jpg"
     },
@@ -23,22 +23,29 @@
     {
         "name": "Star Wars Episod 3: Clone of 104th battalion",
         "manufacturer": "GrandPaCloneCustoms",
-        "qty": 273,
+        "qty": 270,
         "price": "35",
         "image_src": "clone_104.jpg"
     },
     {
         "name": "Star Wars Episod 4: Bail Organa",
         "manufacturer": "PashaCustomCorporation",
-        "qty": 82,
+        "qty": 81,
         "price": "45",
         "image_src": "organa.jpg"
     },
     {
-        "name": "Star Wars Jedi Fallen Order: Purge Trooper",
+        "name": "new sta wars figure",
         "manufacturer": "PashaCustomCorporation",
-        "qty": 171,
-        "price": "40",
+        "price": "100",
+        "qty": 2,
+        "image_src": "purple_clone.jpg"
+    },
+    {
+        "name": "trooper",
+        "manufacturer": "PashaCustomCorporation",
+        "price": "900",
+        "qty": 1,
         "image_src": "jedi_hunter.jpg"
     }
 ]
