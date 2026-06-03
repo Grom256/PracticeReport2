@@ -428,7 +428,7 @@ def cart_view(page):
                 ft.Text('Доставка', size=20, weight=ft.FontWeight.BOLD, color=ft.Colors.BLACK),
 
                 ft.Container(
-                    padding=ft.padding.symmetric(horizontal=12, vertical=8),
+                    padding=ft.Padding(left=12, top=8, right=12, bottom=8),
                     border_radius=8,
                     bgcolor='#E8F5E9',
                     content=ft.Row(
@@ -447,7 +447,7 @@ def cart_view(page):
 
                 ft.Text('Отримувач', size=13, weight=ft.FontWeight.BOLD, color=ft.Colors.BLACK54),
                 ft.Container(
-                    padding=ft.padding.symmetric(horizontal=12, vertical=8),
+                    padding=ft.Padding(left=12, top=8, right=12, bottom=8),
                     border_radius=8,
                     bgcolor='#EBEBEB',
                     content=ft.Column(

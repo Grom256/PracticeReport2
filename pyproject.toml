@@ -9,15 +9,15 @@ authors = [
 ]
 dependencies = [
     "bcrypt>=4.0.0",
-    "flet>=0.85.2",
-    "flet-web>=0.85.2",
+    "flet==0.84.0",
+    "flet-web==0.84.0",
 ]
 
 [dependency-groups]
 dev = [
-    "flet-cli>=0.85.2",
-    "flet-desktop>=0.85.2",
-    "flet-web>=0.85.2",
+    "flet-cli==0.84.0",
+    "flet-desktop==0.84.0",
+    "flet-web==0.84.0",
 ]
 
 [tool.flet]

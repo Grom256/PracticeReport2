@@ -25,7 +25,7 @@ def footer_bar():
     return ft.BottomAppBar(
         height=52,
         bgcolor=DARK,
-        padding=ft.padding.symmetric(horizontal=18, vertical=8),
+        padding=ft.Padding(left=18, top=8, right=18, bottom=8),
         content=ft.Stack(
             expand=True,
             controls=[
@@ -108,7 +108,7 @@ def main_appbar(page, current_route='/'):
 
 def info_chip(icon, text, color=DARK):
     return ft.Container(
-        padding=ft.padding.symmetric(horizontal=10, vertical=6),
+        padding=ft.Padding(left=10, top=6, right=10, bottom=6),
         border_radius=8,
         bgcolor='#FFFFFF',
         border=ft.border.all(1, '#E1E1E1'),
