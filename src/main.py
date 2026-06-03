@@ -1,3 +1,5 @@
+import os
+
 import flet as ft
 
 from models import AUTH_USER_ID_KEY, get_public_user_by_id
@@ -97,4 +99,10 @@ async def main(page: ft.Page):
 
 
 if __name__ == '__main__':
-    ft.run(main, assets_dir='assets', view=ft.AppView.WEB_BROWSER, port=64108)
+    ft.run(
+        main,
+        assets_dir='assets',
+        view=ft.AppView.WEB_BROWSER,
+        host='0.0.0.0',
+        port=int(os.getenv('PORT', 8000)),
+    )

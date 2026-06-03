@@ -8,7 +8,9 @@ authors = [
     { name = "Flet developer", email = "you@example.com" }
 ]
 dependencies = [
-    "flet>=0.85.2"
+    "bcrypt>=4.0.0",
+    "flet>=0.85.2",
+    "flet-web>=0.85.2",
 ]
 
 [dependency-groups]
